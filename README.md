@@ -1,3 +1,5 @@
+# README
+
 This file contains some information about the various directories and files, what they're used for, and their version order.
 
 > [!NOTE]
