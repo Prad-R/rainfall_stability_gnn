@@ -1,6 +1,7 @@
 This file contains some information about the various directories and files, what they're used for, and their version order.
 
-> **NOTE**: Any data files (*.csv) will not be available on the repository.
+> [!NOTE]
+> Any data files (*.csv) will not be available on the repository.
 
 - [code_files](code_files/) conatins all the relevant programming files.
 
