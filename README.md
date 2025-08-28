@@ -5,6 +5,8 @@ This file contains some information about the various directories and files, wha
 > [!NOTE]
 > Any data files (*.csv) will not be available on the repository.
 
+## Repository Structure
+
 - [code_files](code_files/) conatins all the relevant programming files.
 
     - [model_notebooks](code_files/model_notebooks/) contains all the `.ipynb` notebooks that contain the code for the various models.
