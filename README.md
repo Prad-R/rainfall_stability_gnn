@@ -27,6 +27,8 @@ This file contains some information about the various directories and files, wha
 
         - [precipitation_data_combiner.ipynb](code_files/supplementary_files/precipitation_data_combiner.ipynb) is a code that takes the various years' gauge data from [karnataka_precipitation_gauge_data](karnataka_precipitation_gauge_data) and restructures them to contain data of only the locations present across every year.
 
+        - [hdf5_to_grid_csv.py](code_files/supplementary_files/hdf5_to_grid_csv.py) is a code that takes latitude and longitude ranges along with the output file name as input and then extracts the GSMaP_ISRO data from `.hdf5` format to `.csv` format. The code is parallely executated.
+
 - [extracted_gsmap_isro_data](extracted_gsmap_isro_data) contains the `.csv` files extracted from the GSMaP_ISRO dataset.
 
 - [gsmap_isro](gsmap_isro) is a soft link to the GSMap_ISRO dataset directory present in the HDD.
