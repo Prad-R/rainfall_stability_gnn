@@ -23,6 +23,8 @@ This file contains some information about the various directories and files, wha
 
         - [precipitation_gauge_tester_vanilla_cos.ipynb](code_files/model_notebooks/precipitation_gauge_tester_vanilla_cos.ipynb) is the sixth iteration where we use the $cos$ as the similarity metric.
 
+        - [precipitation_gauge_full_india.ipynb](code_files/model_notebooks/precipitation_gauge_full_india.ipynb) is the seventh iteration where we train the model on TN, KA and MP states and evaluate the performance all over India.
+
     - [supplementary_files](code_files/supplementary_files/) contains all the other code files that aid with the model training pipeline
 
         - [precipitation_data_combiner.ipynb](code_files/supplementary_files/precipitation_data_combiner.ipynb) is a code that takes the various years' gauge data from [karnataka_precipitation_gauge_data](karnataka_precipitation_gauge_data) and restructures them to contain data of only the locations present across every year.
