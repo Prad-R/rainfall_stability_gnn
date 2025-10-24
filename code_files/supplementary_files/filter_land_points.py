@@ -16,7 +16,6 @@ def load_dataset(dataset_path, log_transform=False, bias=1e-2):
 
     ## If the data is to be bias + log_transformed
     if (log_transform == True):
-        bias = 1e-2
         meta_columns = ['LOC_ID', 'LATITUDE', 'LONGITUDE', 'VALID_POINTS']
         dataset = raw_dataset.copy()
         dataset.loc[:, ~dataset.columns.isin(meta_columns)] = np.log1p(raw_dataset.loc[:, ~dataset.columns.isin(meta_columns)] + bias)
