@@ -25,7 +25,7 @@ This file contains some information about the various directories and files, wha
 
         - [precipitation_gauge_full_india.ipynb](code_files/model_notebooks/precipitation_gauge_full_india.ipynb) is the seventh iteration where we train the model on TN, KA and MP states and evaluate the performance all over India.
 
-        - [precipitation_gauge_variance.ipynb](code_files/model_notebooks/precipitation_gauge_variance.ipynb) is the eigth iteration where we first find information about rainfall variances across India and then use it for selecting the training dataset appropriately.
+        - [precipitation_gauge_variance.ipynb](code_files/model_notebooks/precipitation_gauge_variance.ipynb) is the eighth iteration where we first find information about rainfall variances across India and then use it for selecting the training dataset appropriately.
 
     - [supplementary_files](code_files/supplementary_files/) contains all the other code files that aid with the model training pipeline
 
