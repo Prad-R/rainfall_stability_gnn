@@ -32,10 +32,10 @@ LAT_MIN = 8
 LAT_MAX = 38
 LON_MIN = 68
 LON_MAX = 97.5
-OUTPUT_CSV = "/home/prad/code/precipitation_gauge_gnn/full_india_grid_timeseries.csv"
+OUTPUT_CSV = "/home/prad/code/precipitation_gauge_gnn/full_india_grid_timeseries_20_years_new.csv"
 
 # --- User Settings ---
-BASE_DIR = "/home/prad/code/precipitation_gauge_gnn/gsmap_isro"
+BASE_DIR = "/home/prad/code/precipitation_gauge_gnn/gsmap_isro/test"
 LAT_MIN, LAT_MAX = LAT_MIN, LAT_MAX
 LON_MIN, LON_MAX = LON_MIN, LON_MAX
 OUTPUT_CSV = OUTPUT_CSV
@@ -72,7 +72,7 @@ print(f"Fetching daily rainfall data for a total of {len(grid_points)} locations
 filepaths = []
 dates = []
 
-for year in range(2015, 2023):
+for year in range(2001, 2023):
     year_dir = os.path.join(BASE_DIR, str(year))
     if not os.path.exists(year_dir):
         print(f"{year_dir} is not a valid directory!")
@@ -128,6 +128,7 @@ with ProcessPoolExecutor() as executor:
     for f in tqdm(as_completed(futures), total=len(futures), desc="Processing HDF5"):
         result = f.result()
         if result is None:
+            print(f"{f}: NOT FOUND!")
             continue
         date_str, data = result
         date_idx = date_to_index[date_str]
