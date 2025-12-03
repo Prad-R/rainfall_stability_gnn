@@ -27,9 +27,9 @@ This file contains some information about the various directories and files, wha
 
         - [precipitation_gauge_variance.ipynb](code_files/model_notebooks/precipitation_gauge_variance.ipynb) is the eighth iteration where we first find information about rainfall variances across India and then use it for selecting the training dataset appropriately.
 
-        - [precipitation_gauge_variance_short_time.ipynb](code/precipitation_gauge_gnn/code_files/model_notebooks/precipitation_gauge_variance_short_time.ipynb) is the ninth iteration, identical to [precipitation_gauge_variance.ipynb](code_files/model_notebooks/precipitation_gauge_variance.ipynb). It contains analysis using data from 2015-2022.
+        - [precipitation_gauge_variance_short_time.ipynb](code_files/model_notebooks/precipitation_gauge_variance_short_time.ipynb) is the ninth iteration, identical to [precipitation_gauge_variance.ipynb](code_files/model_notebooks/precipitation_gauge_variance.ipynb). It contains analysis using data from 2015-2022.
 
-        - [precipitation_gauge_variance_long_time.ipynb](code/precipitation_gauge_gnn/code_files/model_notebooks/precipitation_gauge_variance_long_time.ipynb) is the tenth iteration. It contains analysis using data from 2001-2022.
+        - [precipitation_gauge_variance_long_time.ipynb](code_files/model_notebooks/precipitation_gauge_variance_long_time.ipynb) is the tenth iteration. It contains analysis using data from 2001-2022.
 
     - [supplementary_files](code_files/supplementary_files/) contains all the other code files that aid with the model training pipeline
 
