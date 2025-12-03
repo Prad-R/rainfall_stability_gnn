@@ -5,5 +5,7 @@ extracted_gsmap_isro_data
 writing
 code_files/images
 full_india_grid_timeseries.csv
+full_india_grid_timeseries_20_years.csv
+full_india_grid_timeseries_20_years_new.csv
 code_files/supplementary_files/natural_earth.zip
 code_files/supplementary_files/india_land_points.png
